@@ -601,6 +601,18 @@
             background: var(--gradient-1);
             position: relative;
             overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .app-icon {
+            width: 140px;
+            height: 140px;
+            border-radius: 28px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            z-index: 1;
+            object-fit: cover;
         }
 
         .portfolio-card:nth-child(2) .portfolio-image {
@@ -1105,7 +1117,9 @@
         </div>
         <div class="portfolio-grid">
             <div class="portfolio-card">
-                <div class="portfolio-image"></div>
+                <div class="portfolio-image">
+                    <img src="images/time2take-icon.png" alt="Time2Take App Icon" class="app-icon">
+                </div>
                 <div class="portfolio-info">
                     <h3>Time2Take</h3>
                     <p>Smart medication tracking app with customizable reminders, home screen widgets, symptom logging, and dose timing analytics. Helps users stay on top of their health routine.</p>
@@ -1118,7 +1132,9 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image"></div>
+                <div class="portfolio-image">
+                    <img src="images/sillypilly-icon.png" alt="SillyPilly App Icon" class="app-icon">
+                </div>
                 <div class="portfolio-info">
                     <h3>SillyPilly</h3>
                     <p>Senior-friendly medication app with smart scheduling modes, tiered reminder alerts, and iCloud sync. Features both fixed-time and flexible-interval scheduling.</p>
@@ -1131,7 +1147,9 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image"></div>
+                <div class="portfolio-image">
+                    <img src="images/dailyhello-icon.png" alt="Daily Hello App Icon" class="app-icon">
+                </div>
                 <div class="portfolio-info">
                     <h3>Daily Hello</h3>
                     <p>Wellness check-in app connecting patients with caregivers. Features mood tracking, daily streaks, and CloudKit sharing for remote health monitoring.</p>
